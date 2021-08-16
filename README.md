@@ -3,7 +3,7 @@
 1. [Overview][overview]
 1. [Installations](#installations)
 1. [Training](#training)
-1. [Run](#run)
+1. [Run](run)
 1. [Validation](#validation)
 1. [Credits](#credits)
 
@@ -54,7 +54,7 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 - [AttnDCGAN for bird](https://drive.google.com/open?id=19TG0JUoXurxsmZLaJ82Yo6O0UJ6aDBpg). Download and save it to `models/`
   - This is an variant of AttnGAN which applies the propsoed attention mechanisms to DCGAN framework. 
 
-**[Sampling](#run)**
+## [Sampling](#run)
 - Run `python main.py --cfg cfg/eval_bird.yml --gpu 1` to generate examples from captions in files listed in "./data/birds/example_filenames.txt". Results are saved to `DAMSMencoders/`. 
 - Change the `eval_*.yml` files to generate images from other pre-trained models. 
 - Input your own sentence in "./data/birds/example_captions.txt" if you wannt to generate images from customized sentences. 
