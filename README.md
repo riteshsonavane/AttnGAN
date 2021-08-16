@@ -81,11 +81,16 @@ If you find Text to Face (T2F) using AttnGAN useful in your research, please con
 
 #### Text To Face using AttnGAN
 ```
-@article{Tao18attngan,
-  author    = {Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He},
-  title     = {Development & Implementation (Deployment) of a Generative Model-Based Framework for Photorealistic},
-  Year = {2018},
-  booktitle = {{CVPR}}
+@article{PANDE2021,
+title = {Development and Deployment of a Generative Model-Based Framework for Text to Photorealistic Image Generation},
+journal = {Neurocomputing},
+year = {2021},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2021.08.055},
+url = {https://www.sciencedirect.com/science/article/pii/S092523122101239X},
+author = {Sharad Pande, Srishti Chouhan, Ritesh Sonavane, Rahee Walambe, George Ghinea, Ketan Kotecha},
+keywords = {text-to-image, text-to-face, face synthesis, GAN, AttnGAN},
+abstract = {The task of generating photorealistic images from their textual descriptions is quite challenging. Most existing tasks in this domain are focused on the generation of images such as flowers or birds from their textual description, especially for validating the generative models based on Generative Adversarial Network (GAN) variants and for recreational purposes. However, such work is limited in the domain of photorealistic face image generation and the results obtained have not been satisfactory. This is partly due to the absence of concrete data in this domain and a large number of highly specific features/attributes involved in face generation compared to birds or flowers. In this paper, we propose an Attention Generative Adversarial Network (AttnGAN) for a fine-grained text-to-face generation that enables attention-driven multi-stage refinement by employing Deep Attentional Multimodal Similarity Model (DAMSM). Through extensive experimentation on the CelebA dataset, we evaluated our approach using the Frechet Inception Distance (FID) score. The output files for the Face2Text Dataset are also compare with that of the T2F Github project. According to the visual comparison, AttnGAN generated higher-quality images than T2F. Additionally, we compare our methodology with existing approaches with a specific focus on CelebA dataset and demonstrate that our approach generates a better FID score facilitating more realistic image generation. The application of such an approach can be found in criminal identification, where faces are generated from the textual description from an eyewitness. Such a method can bring consistency and eliminate the individual biases of an artist drawing the faces from the description given by the eyewitness. Finally, we discuss the deplyment of the models on a Raspberry Pi to test how effective the models would be on a standalone device to facilitate portability and timely task completion.}
 }
 ```
 #### AttnGAN
