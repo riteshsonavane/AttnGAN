@@ -69,7 +69,7 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 
 CelebA example              |
 :-------------------------:
-![](https://github.com/taoxugit/AttnGAN/blob/master/example_face.png) |
+![](https://github.com/riteshsonavane/Text2Face/blob/master/example_face.png) |
 
 
 **Creating an API**
