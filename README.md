@@ -1,4 +1,3 @@
-## Soon To Be Finished :)
 # Text To Face Using AttnGAN [![Python 3.6+](https://img.shields.io/badge/python-3.6%2B-green?style=flat-square&logo=python&logoColor=green)](https://www.python.org/downloads/release/python-360/) [![Pytorch 1.0+](https://img.shields.io/badge/pytorch-1.0%2B-green?style=flat-square&logo=pytorch&logoColor=white)](https://www.python.org/downloads/release/python-360/)
 ## Getting Started
 1. [Overview][overview]
